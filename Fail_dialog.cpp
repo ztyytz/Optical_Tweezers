@@ -12,3 +12,4 @@ Fail_dialog::~Fail_dialog()
 {
     delete ui;
 }
+

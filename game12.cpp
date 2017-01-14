@@ -14,7 +14,7 @@ Game12::Game12(){
     ball=new Ball();
     scene->addItem(ball);
     //set background
-    scene->setBackgroundBrush(QBrush(QPixmap(":/images/background.jpeg")));
+    scene->setBackgroundBrush(QBrush(QPixmap(":/images/background/bg12.jpg")));
 
     //add laserGenerator
     laserGenerator=new LaserGenerator();

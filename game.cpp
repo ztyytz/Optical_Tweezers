@@ -16,14 +16,14 @@ Game::Game(){
     ball=new Ball();
     scene->addItem(ball);
     //set background
-    scene->setBackgroundBrush(QBrush(QPixmap(":/images/background.jpeg")));
+    scene->setBackgroundBrush(QBrush(QPixmap(":/images/background/bg1.jpg")));
 
     //add laserGenerator
     laserGenerator=new LaserGenerator();
     scene->addItem(laserGenerator);
     laserGenerator->setFlag(QGraphicsItem::ItemIsFocusable);
     laserGenerator->setFocus();  //继续debug
-
+    laserGenerator->set_range(-3600,3600);
 
 
     //background music

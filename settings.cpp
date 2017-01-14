@@ -126,5 +126,5 @@ void Settings::on_stage12_clicked()
 void Settings::on_backbutton_clicked(){
     MainWindow * mainwindow = new MainWindow();
     mainwindow->show();
-
+    this->hide();
 }

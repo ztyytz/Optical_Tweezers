@@ -81,7 +81,7 @@ FORMS    += mainwindow.ui \
     loading.ui \
     settings.ui \
     Win_dialog.ui \
-    Fail_dialog.ui
+    fail_dialog.ui
 
 RESOURCES += \
     res.qrc

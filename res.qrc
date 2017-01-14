@@ -3,12 +3,24 @@
         <file>Ball.png</file>
         <file>background.jpeg</file>
         <file>laser_generator.jpg</file>
-
         <file>laser_generator_1.png</file>
         <file>laser_generator_2.png</file>
         <file>bg.jpg</file>
         <file>mirror.jpg</file>
         <file>win_zone.png</file>
+        <file>fail.png</file>
+        <file>background/bg1.jpg</file>
+        <file>background/bg2.jpg</file>
+        <file>background/bg3.jpeg</file>
+        <file>background/bg4.jpg</file>
+        <file>background/bg5.jpg</file>
+        <file>background/bg6.jpg</file>
+        <file>background/bg7.jpg</file>
+        <file>background/bg8.jpg</file>
+        <file>background/bg9.jpg</file>
+        <file>background/bg10.jpg</file>
+        <file>background/bg11.jpg</file>
+        <file>background/bg12.jpg</file>
     </qresource>
     <qresource prefix="/music">
         <file>game_bgm.mp3</file>

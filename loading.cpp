@@ -3,7 +3,7 @@
 #include <game.h>
 #include <QTimer>
 #include <QDebug>
-Game*game;
+
 Loading::Loading(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::Loading)
@@ -31,13 +31,6 @@ void Loading::progressing_change(){
         timer->stop();
     }
 }
-
-void Loading::on_pushButton_clicked()
-{
-
-}
-
-
 
 
 
